@@ -18,9 +18,8 @@ ActiveRecord::Schema.define(version: 20191119003632) do
   end
 
   create_table "rides", force: :cascade do |t|
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
-    t.integer  "passenger_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.integer  "taxi_id"
   end
 
